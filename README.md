@@ -1,4 +1,6 @@
 # uchicago-cs152-project
+This is the home for my UChicago CS 15200 Traversal Codes and Final Project.\
+The page is under construction. (Since the author is having his final.)\
 
 # hw4
 This is a C file for realizing various traversal operations. 
@@ -15,7 +17,7 @@ bytes identified below as reserved for future expansion.\
 
 byte 8:11\
 These bytes contain the current date as a YYYYMMDD integer (for\
-example, 20190228). This should be the date at which the conversion \
+example, 20190228). This should be the date at which the conversion\
 to P152 is performed. Type "man localtime" to read about the various\
 ways to read the current date from the system. This number is written\
 into the file as a 4-byte big-endian integer.\
@@ -23,7 +25,7 @@ into the file as a 4-byte big-endian integer.\
 byte 12:13\
 The current time is given as an HHMM integer. For example: 0 is\
 midnight, 930 is 9:30am, 1345 is 1:45pm. The time should be the\
-minute at which the P152 conversion is performed. This is written \
+minute at which the P152 conversion is performed. This is written\
 into the file as a two-byte big-endian integer.\
 
 byte 14:15\
