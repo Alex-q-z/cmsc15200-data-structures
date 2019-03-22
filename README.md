@@ -21,8 +21,9 @@ The program "describe" reads a P152 file from stdin and writes the following inf
 - whether or not the image is grayscale
 - whether or not the image uses a color table, and, if, so, the size of the table
 
-3. ppm_p152.c & p152_ppm.c
-A p152 file has the following structure:
+3. ppm_p152.c & p152_ppm.c  
+
+4. A p152 file has the following structure:  
 
 - byte 0:5  
 The first six bytes of a P152v1 file contain the characters "P152v1".  
