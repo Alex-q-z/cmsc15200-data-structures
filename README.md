@@ -10,9 +10,10 @@ This project features a new file format (.p152) for ppm file compression.
 
 1. negative.c  
 - The negative of an image is produced by subtracting the value of each color component from 255.  
-That is, the negative of the color (10,20,30) is (245,235,225). Similarly, the negative of  
-(255,255,255) is (0,0,0) and vice versa. The program would read an image from stdin and write  
-the corresponding negative to stdout. It supports both P3 and P6 files, and write the same format it reads.
+That is, the negative of the color (10,20,30) is (245,235,225).  
+Similarly, the negative of (255,255,255) is (0,0,0) and vice versa.  
+The program would read an image from stdin and write the corresponding negative to stdout.  
+It supports both P3 and P6 files, and write the same format it reads.
 
 2. describe.c  
 The program "describe" reads a P152 file from stdin and writes the following information to stdout:
@@ -59,7 +60,7 @@ These bytes store the color table size.
 
 - byte 22  
 The leftmost bit -- the highest bit -- of byte 22 is 1 for run-length  
-encoded color data, 0 for raw data. 
+encoded color data, 0 for raw data.  
 The next-to-leftmost bit of byte 22 is 1 for a grayscale image, 0 for  
 color.  
 The next 6 bits in byte 22 are reserved for future expansion.  
