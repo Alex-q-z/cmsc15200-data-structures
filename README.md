@@ -9,11 +9,7 @@ This is a C file for realizing various traversal operations.
 This project features a new file format (.p152) for ppm file compression.
 
 1. negative.c  
-- The negative of an image is produced by subtracting the value of each color component from 255.  
-That is, the negative of the color (10,20,30) is (245,235,225).  
-Similarly, the negative of (255,255,255) is (0,0,0) and vice versa.  
-The program would read an image from stdin and write the corresponding negative to stdout.  
-It supports both P3 and P6 files, and write the same format it reads.
+- The negative of an image is produced by subtracting the value of each color component from 255. That is, the negative of the color (10,20,30) is (245,235,225). Similarly, the negative of (255,255,255) is (0,0,0) and vice versa. The program would read an image from stdin and write the corresponding negative to stdout. It supports both P3 and P6 files, and write the same format it reads.
 
 2. describe.c  
 The program "describe" reads a P152 file from stdin and writes the following information to stdout:
