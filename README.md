@@ -58,13 +58,10 @@ The image height is given as a 2-byte big-endian integer.
 These bytes store the color table size.
 
 - byte 22  
-
 The leftmost bit -- the highest bit -- of byte 22 is 1 for run-length  
 encoded color data, 0 for raw data. 
-
 The next-to-leftmost bit of byte 22 is 1 for a grayscale image, 0 for  
 color.  
-
 The next 6 bits in byte 22 are reserved for future expansion.  
 
 - byte 23:25  
