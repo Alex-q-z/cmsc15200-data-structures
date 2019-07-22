@@ -2,10 +2,10 @@
 This is the home for my UChicago CS 15200 Traversal Codes and Final Project.  
 Note: the page is currently under construction. 
 
-# traversal_codes
+## traversal_codes
 This is a C file for realizing various traversal operations.  
 
-# image_compression
+## image_compression
 This project features a new file format (.p152) for ppm file compression.
 
 1. negative.c  
@@ -22,6 +22,9 @@ The program "describe" reads a P152 file from stdin and writes the following inf
 - whether or not the image uses a color table, and, if, so, the size of the table
 
 3. ppm_p152.c & p152_ppm.c  
+convert ppm files to p152 files (ppm_p152.c)   
+convert p152 files to ppm files (p152_ppm.c)    
+note: ppm files here are by default in P3 format  
 
 4. A p152 file has the following structure:  
 
